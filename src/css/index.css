@@ -283,6 +283,249 @@
   height: 250px;
 }
 
+#w_main_1 .main_1b .main_1b_left {
+  float: left;
+  width: 960px;
+  height: 702px;
+}
+
+#w_main_1 .main_1b .main_1b_left h3 {
+  margin: 0 10px;
+  height: 30px;
+  border-bottom: solid 1px #d2d2ce;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#w_main_1 .main_1b .main_1b_left ul {
+  overflow: hidden;
+  padding: 5px;
+  height: 310px;
+}
+
+#w_main_1 .main_1b .main_1b_left ul li {
+  float: left;
+  overflow: hidden;
+  padding: 3px;
+  width: 180px;
+  height: 302px;
+  border: 1px solid #ccc;
+}
+
+#w_main_1 .main_1b .main_1b_right {
+  float: right;
+  width: 240px;
+  overflow: hidden;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard {
+  height: 700px;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard h4 {
+  float: none;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard ul {
+  height: 500px;
+  background: #ddd;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard ul li {
+  height: 20px;
+  line-height: 20px;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard ul li a {
+  color: #666;
+  text-decoration: none;
+}
+
+#w_main_1 .main_1b .main_1b_right .topboard ul .on {
+  height: 150px;
+}
+
+#w_main_2 .main_2t {
+  height: 34px;
+  border-bottom: solid 2px #c53f4c;
+}
+
+#w_main_2 .main_2t h2 {
+  float: left;
+  width: 143px;
+  height: 34px;
+  line-height: 34px;
+  text-indent: -10000px;
+  overflow: hidden;
+  background: url(../img/title_01.png) no-repeat 0 0px;
+}
+
+#w_main_2 .main_2t ul {
+  float: right;
+  padding: 7px 0;
+  height: 20px;
+}
+
+#w_main_2 .main_2t ul li {
+  float: left;
+  margin: 3px 0;
+  padding: 0 20px;
+  height: 14px;
+  border-left: 1px solid  #5a463d;
+  line-height: 14px;
+}
+
+#w_main_2 .main_2c {
+  border-bottom: 1px solid #ccc;
+}
+
+#w_main_2 .main_2c .left {
+  float: left;
+  width: 960px;
+}
+
+#w_main_2 .main_2c .left .main_2ct {
+  height: 252px;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctl {
+  float: left;
+  width: 198px;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctl ul {
+  margin-left: -1px;
+  width: 204px;
+  height: 250px;
+  background-color: #d6c9bc;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctl ul li {
+  float: left;
+  padding: 4px 0;
+  width: 99px;
+  height: 40px;
+  border: solid 1px #c0ac98;
+  background-color: #d6c9bc;
+  text-align: center;
+  border-left-color: #dfd5ca;
+  border-top-color: #dfd5ca;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr {
+  float: left;
+  position: relative;
+  width: 758px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr ul {
+  position: absolute;
+  overflow: hidden;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr ul li {
+  float: left;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr ul li img {
+  display: block;
+  height: 250px;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr .page {
+  display: block;
+  position: absolute;
+  right: 42%;
+  bottom: 0;
+  padding: 10px;
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr .page span {
+  display: inline-block;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#w_main_2 .main_2c .left .main_2ct .main_2ctr .page .active {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+#w_main_2 .main_2c .left .main_2cb {
+  padding: 10px 0;
+  height: 320px;
+  background-color: #fff;
+}
+
+#w_main_2 .main_2c .left .main_2cb ul {
+  overflow: hidden;
+  padding: 5px;
+  height: 310px;
+}
+
+#w_main_2 .main_2c .left .main_2cb ul li {
+  float: left;
+  overflow: hidden;
+  padding: 3px;
+  width: 180px;
+  height: 302px;
+  border: 1px solid #ccc;
+}
+
+#w_main_2 .main_2c .right {
+  float: right;
+  width: 240px;
+}
+
+#w_main_2 .main_2c .right .topboard {
+  height: 580px;
+}
+
+#w_main_2 .main_2c .right .topboard h4 {
+  float: none;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#w_main_2 .main_2c .right .topboard ul {
+  height: 500px;
+  background: #ddd;
+}
+
+#w_main_2 .main_2c .right .topboard ul li {
+  height: 20px;
+  line-height: 20px;
+}
+
+#w_main_2 .main_2c .right .topboard ul li a {
+  color: #666;
+  text-decoration: none;
+}
+
+#w_main_2 .main_2c .right .topboard ul .on {
+  height: 150px;
+}
+
+#w_main_3 {
+  margin: 10px 0px;
+}
+
 #w_banner {
   position: relative;
   width: 100%;
