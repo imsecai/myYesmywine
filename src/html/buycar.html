@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/buycar.css" />
+</head>
+<body>
+    <header id="w_head"></header>
+    <div class="crumb">
+        <div class="container">
+            <a href="#">选酒中心</a> ＞
+            <a href="#">浓香型</a> ＞
+            <strong> 剑南春浓香型52度500ml</strong>
+        </div>
+    </div>
+
+    
+
+
+
+    <!-- <footer id="w_foot"></footer> -->
+    
+</body>
+<script src="../lib/jquery-3.2.1.js"></script>
+<script>
+    $(function(){
+        $('#w_head').load('head.html',function(){
+            $('.on').css('display','none');
+        });
+        $('#w_foot').load('foot.html');
+    })
+</script>
+</html>
