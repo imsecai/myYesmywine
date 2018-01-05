@@ -4,6 +4,10 @@
   background: #D3161B;
 }
 
+#w_nav .nav-left {
+  position: relative;
+}
+
 #w_nav .nav-left h3 {
   position: relative;
   padding: 8px 10px;
@@ -37,23 +41,29 @@
   background: url(../img/bg_header5.png) no-repeat -160px -175px;
 }
 
-#w_nav .nav-left .one {
+#w_nav .nav-left ul {
   position: absolute;
   padding: 5px;
-  top: 166px;
-  left: 32px;
+  top: 35px;
   float: left;
   width: 190px;
-  background: #FFFFFF;
+  background-color: #fff;
   z-index: 1;
 }
 
-#w_nav .nav-left .one h4 {
-  height: 20px;
-  line-height: 20px;
+#w_nav .nav-left ul li {
+  border-bottom: 1px solid #ccc;
 }
 
-#w_nav .nav-left .one p a {
+#w_nav .nav-left ul li dt {
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#w_nav .nav-left ul li dd a {
   float: left;
   display: inline;
   margin: 3px 8px 3px 0;
@@ -61,76 +71,35 @@
   line-height: 18px;
 }
 
-#w_nav .nav-left .two {
+#w_nav .nav-left ul li .h400 {
+  display: none;
   position: absolute;
-  padding: 5px;
-  top: 266px;
-  left: 32px;
-  float: left;
-  width: 190px;
-  background: #FFFFFF;
-  z-index: 1;
+  top: 0px;
+  height: 400px;
 }
 
-#w_nav .nav-left .two h4 {
-  height: 20px;
-  line-height: 20px;
-}
-
-#w_nav .nav-left .two p a {
-  float: left;
-  display: inline;
-  margin: 3px 8px 3px 0;
-  white-space: nowrap;
-  line-height: 18px;
-}
-
-#w_nav .nav-left .three {
+#w_nav .nav-left ul li .h400 .subcates {
   position: absolute;
-  padding: 5px;
-  top: 366px;
-  left: 32px;
   float: left;
-  width: 190px;
-  background: #FFFFFF;
-  z-index: 1;
+  padding: 0 10px;
+  top: 0px;
+  left: 190px;
+  width: 240px;
+  height: 100%;
 }
 
-#w_nav .nav-left .three h4 {
-  height: 20px;
-  line-height: 20px;
-}
-
-#w_nav .nav-left .three p a {
-  float: left;
-  display: inline;
-  margin: 3px 8px 3px 0;
-  white-space: nowrap;
-  line-height: 18px;
-}
-
-#w_nav .nav-left .four {
+#w_nav .nav-left ul li .h400 .relcates {
   position: absolute;
-  padding: 5px;
-  top: 466px;
-  left: 32px;
   float: left;
-  width: 190px;
-  background: #FFFFFF;
-  z-index: 1;
+  padding: 0 10px;
+  top: 0px;
+  left: 448px;
+  width: 240px;
+  height: 100%;
 }
 
-#w_nav .nav-left .four h4 {
-  height: 20px;
-  line-height: 20px;
-}
-
-#w_nav .nav-left .four p a {
-  float: left;
-  display: inline;
-  margin: 3px 8px 3px 0;
-  white-space: nowrap;
-  line-height: 18px;
+#w_nav .nav-left ul li:hover .h400 {
+  display: block;
 }
 
 #w_nav .nav-right li {
