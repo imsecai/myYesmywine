@@ -76,6 +76,7 @@
   position: absolute;
   top: 0px;
   height: 400px;
+  opacity: 0.9;
 }
 
 #w_nav .nav-left ul li .h400 .subcates {
