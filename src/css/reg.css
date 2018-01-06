@@ -73,6 +73,18 @@
     float: left;
     border:1px solid #ccc;
 }
+.reg_main .mod-login #vcode{
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    margin-left:5px;
+    background: #ccc;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 900;
+}
 .reg_main .mod-login .btn-style{
     background: #e3e3e3;
     color: #fff;
@@ -96,7 +108,7 @@
     height: 28px;
     line-height: 14px;
 }
-.reg_main .mod-login .btn-register{
+.reg_main .mod-login .btnReg{
     display: block;
     margin-right: 0;
     margin-left: 10px;
